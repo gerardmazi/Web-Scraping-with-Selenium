@@ -13,6 +13,7 @@ import time
 from datetime import date
 import matplotlib.pyplot as plt
 
+# Download and extract chromedriver.exe from http://chromedriver.chromium.org/downloads
 chrome_path = r"C:/.../chromedriver.exe"
 driver = webdriver.Chrome(chrome_path)
 
