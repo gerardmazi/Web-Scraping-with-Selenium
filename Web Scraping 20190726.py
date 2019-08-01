@@ -54,7 +54,7 @@ for u in lookup['URL'].tolist():
     for p in prod_nam:
         prod.append(p.text)
     
-    apy = driver.find_elements_by_class_name('apy')
+    apy = driver.find_elements_by_class_name('//div[@class = "apy"]/span')
     for a in apy:
         rates.append(a.text)
     
